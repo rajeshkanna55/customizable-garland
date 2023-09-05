@@ -1,0 +1,174 @@
+.flower_content_area
+{
+    /* background-color: blueviolet; */
+
+}
+.base_of_garland
+{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 100px;  
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+}
+.base_pic_garland
+{
+    /* background-color: darksalmon; */
+    height: 50px;
+    width: 270px;  
+}
+.mid_of_garland
+{
+    /* background-color: darkgrey; */
+     display: flex;
+     justify-content: center;
+     
+}
+.topbase_pic1_garland
+{
+    /* background-color: darkturquoise; */
+   height: 24px;
+   width: 47px;
+   transform: skewX(10deg);
+   /* border-radius: 8px; */
+  
+}
+.topbase_pic2_garland
+{
+    /* background-color: darkturquoise; */
+   height: 24px;
+   width: 47px;
+   transform: skewX(-10deg);
+   /* border-radius: 8px; */
+}
+.mid_pic1_garland
+{
+    background-color: darkturquoise;
+   height: 24px;
+   width: 47px;
+   transform: skewX(10deg);
+   /* border-radius: 8px; */
+   position: relative;
+     left: 20px; 
+}
+.mid_pic2_garland
+{
+    background-color: darkturquoise;
+   height: 24px;
+   width: 47px;
+   transform: skewX(-10deg);
+   /* border-radius: 8px; */
+   position: relative;
+     right:21px; 
+}
+.top_of_garland
+{
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 125px; 
+    display: flex;
+    justify-content: center;   
+}
+.top_pic1_garland
+{
+    /* background-color: darkolivegreen; */
+    height: 100%;
+   width: 40px; 
+   /* border-radius: 10px; */
+   transform: skewX(8deg); 
+   position: relative;
+   left: 10px; 
+}
+.top_pic2_garland
+{
+    /* background-color: darkolivegreen; */
+    height: 100%;
+     width: 40px;
+     /* border-radius: 10px; */
+     transform: skewX(-8deg); 
+     position: relative;
+     right: 10px;
+}
+.botmid_of_garland
+{
+    /* background-color: chocolate; */
+    height: 100px; 
+    display: flex;
+    justify-content: center;   
+}
+.botmid_pic1_garland
+{
+   /*  background-color: rgb(80, 131, 80); */
+    width: 40px; 
+    height: 100%; 
+    position: relative;
+    left: 55px;
+     border-radius: 0px 5px 0px 50px;
+    transform: skewX(34deg);
+    /* transform: perspective(20px) rotateX(20deg); */
+}
+.botmid_pic2_garland
+{
+    /* background-color: rgb(80, 131, 80); */
+    width: 40px; 
+    height: 100%;   
+    position: relative;
+    right: 54px;
+    border-radius: 5px 0px 50px 0px;
+    transform: skewX(-34deg);
+    /* transform: perspective(20px) rotateX(20deg); */
+}
+.under_of_garland
+{
+    height: 80px;
+    width:100%;
+   /* background-color: crimson; */
+   display: flex;
+   justify-content: center;
+}
+.under_pic_garland
+{
+    width: 50px;
+    height: 50px;
+    /* background-color: mediumseagreen; */
+    border-radius: 50%;
+}
+.root_full_contain
+{
+    /* background-color: brown; */
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.root_contain
+{
+    /* background-color: bisque; */
+    height:470px;
+    width: 450px;
+}
+.image_fitting
+{
+    width: 100%;
+    height: 100%; 
+    display: block; 
+    margin: auto;
+}
+.image1_fitting_bottom
+{
+    max-width: 100%;
+    height: 100%; 
+    display: block; 
+    margin: auto;
+    border-radius: 10px 5px 5px 50px;
+}
+.image2_fitting_bottom
+{
+    max-width: 100%;
+    height: 100%; 
+    display: block; 
+    margin: auto;
+    border-radius: 5px 10px 50px 5px;
+}
